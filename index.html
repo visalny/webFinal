@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style/content.css" rel="stylesheet">
+    <style>
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        #navlef {
+            margin-left: 100px;
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .navbar a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: red;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        #ima {
+            width: 100%;
+            height: 400px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div id="navlef">
+            <a href="index.html">
+                <img style="width: 22px;margin-top: 2px;" src="navicon/home.png" /> HOME
+            </a>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    <img style="width: 22px;" src="navicon/service.png" /> SERVICE
+                </button>
+                <div class="dropdown-content">
+                    <a href="Hardware Service.html" >HARDWARE SERVICE</a>
+                    <a href="Installation.html">INSTALLATION</a>
+                    <a href="Microfinance.html" >MICROFINACE</a>
+                    <a href="service center.html" >SERVICE CENTER</a>
+                    <a href="Unlock phone.html" >UNLOCK PHONE</a>
+                </div>
+            </div>
+            <a href="about.html">
+                <img style="width: 22px;margin-top: 2px;" src="navicon/about.png" /> 
+                ABOUT US
+            </a>
+        </div>
+    </div>
+    <div>
+        <img id="ima" src="image/computer1.jpg" />
+    </div>
+
+<!-- content -->
+
+<div class="flex-container">
+        <div class="flex-container-category" style="flex-grow: 1">
+            <h1 class="cate" style="font-family: 'Times New Roman', Times, serif">CATEGORIES</h1>
+            <div class="categories-nav">
+                <div>
+                    <a href="#">Iphone</a>
+                </div>
+                <div>
+                    <a href="#">Samsung</a>
+                </div>
+                <div>
+                    <a href="#">Hawei</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="flex-container-phone" style="flex-grow:8">
+            <div class="flex-container-phone-sub">
+                <div style="flex-grow: 1">
+                    <a href="#">
+                        <img src="phone/phone1.png" />
+                    </a>
+                    <h3>Phone1</h3>
+                </div>
+                <div style="flex-grow: 1">
+                    <a href="#">
+                        <img src="phone/phone2.png" />
+                    </a>
+                    <h3>Phone1</h3>
+                </div>
+                <div style="flex-grow: 1">
+                    <a href="#">
+                        <img src="phone/phone3.png" />
+                    </a>
+                    <h3>Phone1</h3>
+                </div>
+                <div style="flex-grow: 1">
+                    <a href="#">
+                        <img src="phone/phone4.png" />
+                    </a>
+                    <h3>Phone1</h3>
+                </div>
+            </div>
+            <div class="flex-container-phone-sub">
+                <div style="flex-grow: 1">
+                    <a href="#">
+                        <img src="phone/phone5.png" />
+                    </a>
+                    <h3>Phone1</h3>
+                </div>
+                <div style="flex-grow: 1">
+                    <a href="#">
+                        <img src="phone/phone13.png" />
+                    </a>
+                    <h3>Phone1</h3>
+                </div>
+                <div style="flex-grow: 1">
+                    <a href="#">
+                        <img src="phone/phone7.png" />
+                    </a>
+                    <h3>Phone1</h3>
+                </div>
+                <div style="flex-grow: 1">
+                    <a href="#">
+                        <img src="phone/phone8.png" />
+                    </a>
+                    <h3>Phone1</h3>
+                </div>
+            </div>
+            <div class="flex-container-phone-sub">
+                <div style="flex-grow: 1">
+                    <a href="#">
+                        <img src="phone/phone9.png" />
+                    </a>
+                    <h3>Phone1</h3>
+                </div>
+                <div style="flex-grow: 1">
+                    <a href="#">
+                        <img src="phone/phone10.png" />
+                    </a>
+                    <h3>Phone1</h3>
+                </div>
+                <div style="flex-grow: 1">
+                    <a href="#">
+                        <img src="phone/phone11.png" />
+                    </a>
+                    <h3>Phone1</h3>
+                </div>
+                <div style="flex-grow: 1">
+                    <a href="#">
+                        <img src="phone/phone12.png" />
+                    </a>
+                    <h3>Phone1</h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+<!-- end content -->
+
+
+    <script src="javascript/slide.js" type="text/javascript"></script>
+</body>
+
+</html>
